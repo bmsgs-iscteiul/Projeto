@@ -1,17 +1,17 @@
 package Projeto.Projeto;
 
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import junit.framework.TestCase;
+import org.junit.Test;
 
-class ClasseAmostraTest {
+public class ClasseAmostraTest {
 
 //	@Test
-//	void test() {
+//	public void test() {
 //		fail("Not yet implemented");
 //	}
-	
+
 	@Test
 	public void testSquare() {
 		ClasseAmostra test=new ClasseAmostra();
@@ -25,6 +25,4 @@ class ClasseAmostraTest {
 		int output=test.sum(5);
 		assertEquals(10, output);
 	}
-
-
 }
