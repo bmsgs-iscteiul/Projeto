@@ -3,6 +3,8 @@ package Projeto.Projeto;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
+import junit.framework.TestCase;
+
 class ClasseAmostraTest {
 
 //	@Test
