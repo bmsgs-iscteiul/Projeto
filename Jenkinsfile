@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Projeto_ES_Compile') {
+      steps {
+        bat(script: 'mvn -f C:\\Users\\beatr\\git\\Projeto\\Projeto\\pom.xml compile && exit', returnStatus: true)
+      }
+    }
+
   }
 }
