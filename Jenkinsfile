@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('Projeto_ES_JavaDoc') {
+      steps {
+        bat(script: 'mvn -f C:\\Users\\beatr\\git\\Projeto\\Projeto\\pom.xml javadoc:javadoc && exit', returnStatus: true)
+      }
+    }
+
   }
 }
